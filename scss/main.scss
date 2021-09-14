@@ -3,20 +3,38 @@
 @import "../bootstrap/scss/mixins";
 @import "grilla";
 
-$light: #f39111;
+
+
+// --navbar-- //
+$navbar-light-color: #77a5d3;
+$navbar-light-hover-color:          #5E789B;
+$navbar-light-active-color:           #ffffff;
+$navbar-light-toggler-border-color:   #5E789B;
+
+.nav-item:hover {
+    font-weight: bold;
+}
+.active {
+    background-color: rgb(122, 163, 197);
+    border-radius: 1rem;
+}
+
+.active__dropdown-item {
+    background-color: rgb(122, 163, 197);
+}
+
+
+$light: #b36d34;
 $danger: rgb(25, 136, 211);
-$secondary: green;
+$secondary: rgb(0, 0, 0);
 
 $theme-colors: (
     "light": $light,
     "danger": $danger,
     "secondary":$secondary,
 );
-
 // Create your own map
-$custom-colors: (
-"custom-color": #5E789B
-);
+$custom-colors: ("custom-color": #5E789B);
 
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -25,20 +43,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 
 
-$dropdown-link-hover-color: red;
-$enable-shadows:true;
-$enable-gradients:true;
-
-
-/* MAPAS 
-$redes:( facebook: #55acee, instagram: #c25330, back: #3a5795,);
-@each $red, $color in $redes {
-    .btn--#{$red} {
-        background-color: $color;
-    }
-}
-/* FIN */
-
 
 .section__portada {
     padding-top: 0px;
@@ -46,7 +50,6 @@ $redes:( facebook: #55acee, instagram: #c25330, back: #3a5795,);
 	margin-bottom: 2px;
     width: 100%;
     height: 100%;
-    box-shadow: 0px -10px 11px -17px black;
 }
 
 
@@ -58,9 +61,11 @@ $redes:( facebook: #55acee, instagram: #c25330, back: #3a5795,);
 }
 
 .aside {
+    padding-top: 20px;
     padding: 40px;
     width: 100%;
     max-width: 250px;
+    background-color: #c2ceda;
 }
 
 .aside__titulo {
@@ -160,18 +165,22 @@ $redes:( facebook: #55acee, instagram: #c25330, back: #3a5795,);
 
 
 /* modifica barra de navegacion pagina principal */
-.ul {
+/*.ul {
     list-style: none;
     .li {
-        padding: 8px;
         display: inline-block;
         .a {
             text-decoration: none;
             font-size: 16px;
             color: #77a5d3;
-      }
+            .a:hover{
+                color: #5E789B;
+                font-weight: bold;
+                background-color: hotpink;
+            }
+        }
     }
-}
+}*/
 
 .body__error404 {
     background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);

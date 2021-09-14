@@ -17,6 +17,7 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- CSS personal -->
     <link rel="stylesheet" href="css/style.css">
+
     <!-- CSS creado con SCSS personal -->
     <link rel="stylesheet" href="scss/main.css">
     <!-- Bootstrap CSS -->
@@ -40,7 +41,7 @@
                                 aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="justify-content-end">
+                            <div class="justify-content-end ">
                                 <div class="collapse navbar-collapse fuente" id="navbarSupportedContent">
                                     <ul class="ul navbar-nav me-auto mb-2 mb-lg-0">
                                         <li class="li nav-item">
@@ -59,10 +60,10 @@
                                                 Servicios
                                             </a>
                                             <ul class="ul dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><a class="li dropdown-item" href="servicios.html">Fisioterapia</a></li>
-                                                <li><a class="li dropdown-item" href="servicios.html">Cirujias</a></li>
-                                                <li><a class="li dropdown-item" href="servicios.html">Internaciones</a></li>
-                                                <li><a class="li dropdown-item" href="servicios.html">Consulta Domiciliaria</a></li>
+                                                <li><a class="a dropdown-item" href="servicios.html">Fisioterapia</a></li>
+                                                <li><a class="a dropdown-item" href="servicios.html">Cirujias</a></li>
+                                                <li><a class="a dropdown-item" href="servicios.html">Internaciones</a></li>
+                                                <li><a class="a dropdown-item" href="servicios.html">Consulta Domiciliaria</a></li>
                                             </ul>
                                         </li>
                                         <li class="li nav-item dropdown">
@@ -78,9 +79,9 @@
                                                 Productos
                                             </a>
                                             <ul class="ul dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <li><a class="li dropdown-item" href="productos.html">Alimentos</a></li>
-                                                <li><a class="li dropdown-item" href="productos.html">Medicamentos</a></li>
-                                                <li><a class="li dropdown-item" href="productos.html">Bienestar</a></li>
+                                                <li><a class="a dropdown-item" href="productos.html">Alimentos</a></li>
+                                                <li><a class="a dropdown-item" href="productos.html">Medicamentos</a></li>
+                                                <li><a class="a dropdown-item" href="productos.html">Bienestar</a></li>
                                             </ul>
                                         </li>
                                         <li class="li nav-item">
@@ -103,7 +104,7 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/foto_slider_1.jpg" class="d-block w-100" alt="Veterinaria San Roque">
+                    <img src="img/foto_slider_1.jpg" class="d-block w-100 " alt="Veterinaria San Roque">
                 </div>
                 <div class="carousel-item">
                     <img src="img/foto_slider_2.jpg" class="d-block w-100" alt="Veterinaria San Roque">
@@ -115,7 +116,7 @@
         </div>
     </section>
 
-    <div class="container-fluid container__servicios__fondo">
+    <div class="container-fluid container__servicios__fondo container__sombra__interna">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 ">
@@ -190,7 +191,7 @@
                                             <li>
                                                 <p>Control antirrabico</p>
                                             </li>
-                                            <li class="bg-danger" style="width: 120px; height: 40px;">
+                                            <li class="bg-danger" style="width: 100px; height: 40px;">
                                                 <p> Urgencias</p>
                                             </li>
                                         </ul>
@@ -273,7 +274,8 @@
                     <nav class="navbar navbar-expand-lg menuFooter">
                         <div class="container-fluid">
                             <img class="animate__animated animate__pulse" src="img/Veterinaria-San-Roque-sm.png" alt="Logo Veterinaria San Roque">
-                            <nav>
+                            <nav
+                            >
                                 <ul>
                                     <li class="sombra_movil btn--facebook "><a href=http://www.facebook.com> <svg
                                                 xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
@@ -303,6 +305,8 @@
     </footer>
 
     <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 </body>
 
