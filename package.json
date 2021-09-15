@@ -1,0 +1,19 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "Web Veterinaria San Roque",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DTrra/mi_repositorio.git"
+  },
+  "author": "Diego Terranova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DTrra/mi_repositorio/issues"
+  },
+  "homepage": "https://github.com/DTrra/mi_repositorio#readme"
+}

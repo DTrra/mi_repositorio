@@ -113,13 +113,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     background-color: rgb(255, 255, 255);
     border-radius: 2px;
     text-decoration: none;
-
 }
 
 .aside__nav__link--activo {
     color:black
 }
-
 
 .article__equipo {
 	display: flex;
@@ -163,28 +161,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 }
 
 
-
-/* modifica barra de navegacion pagina principal */
-/*.ul {
-    list-style: none;
-    .li {
-        display: inline-block;
-        .a {
-            text-decoration: none;
-            font-size: 16px;
-            color: #77a5d3;
-            .a:hover{
-                color: #5E789B;
-                font-weight: bold;
-                background-color: hotpink;
-            }
-        }
-    }
-}*/
-
 .body__error404 {
     background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
-
 }
 
 .error404 {
