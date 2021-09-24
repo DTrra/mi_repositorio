@@ -24,261 +24,224 @@
   <!-- Animaciones -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-  <title>Equipo - Veterinaria San Roque</title>
+  <title>Equipo | Veterinaria San Roque</title>
 </head>
 
 <body>
-  <header>
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row">
+  <!-- Logo + menu -->
+  <header class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="container">
           <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-              <img class="animate__animated animate__pulse" src="img/Veterinaria-San-Roque.png"
+            <div>
+              <img class="me-auto img-fluid animate__animated animate__pulse" src="img/Veterinaria-San-Roque.png"
                 alt="Logo Veterinaria San Roque">
+            </div>
+            <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="justify-content-end">
-                <div class="collapse navbar-collapse fuente" id="navbarSupportedContent">
-                  <ul class="ul navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="li nav-item">
-                      <a class="a nav-link" aria-current="page" href="index.html">Inicio</a>
-                    </li>
-                    <li class="li nav-item dropdown">
-                      <a class="a nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                          fill="currentColor" class="bi bi-box-arrow-down" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd"
-                            d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z" />
-                          <path fill-rule="evenodd"
-                            d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z" />
-                        </svg>
-                        Servicios
-                      </a>
-                      <ul class="ul dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="li dropdown-item" href="servicios.html">Fisioterapia</a></li>
-                        <li><a class="li dropdown-item" href="servicios.html">Cirujias</a></li>
-                        <li><a class="li dropdown-item" href="servicios.html">Internaciones</a></li>
-                        <li><a class="li dropdown-item" href="servicios.html">Consulta Domiciliaria</a></li>
-                      </ul>
-                    </li>
-                    <li class="li nav-item dropdown">
-                      <a class="a nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                          fill="currentColor" class="bi bi-box-arrow-down" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd"
-                            d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z" />
-                          <path fill-rule="evenodd"
-                            d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z" />
-                        </svg>
-                        Productos
-                      </a>
-                      <ul class="ul dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="li dropdown-item" href="productos.html">Alimentos</a></li>
-                        <li><a class="li dropdown-item" href="productos.html">Medicamentos</a></li>
-                        <li><a class="li dropdown-item" href="productos.html">Bienestar</a></li>
-                      </ul>
-                    </li>
-                    <li class="li nav-item">
-                      <a class="a nav-link active" href="equipo.html">Equipo</a>
-                    </li>
-                    <li class="li nav-item">
-                      <a class="a nav-link" href="formulario.html">Contacto</a>
-                    </li>
-                  </ul>
-                </div>
+              <div class="me-2 collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-box-arrow-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z" />
+                        <path fill-rule="evenodd"
+                          d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z" />
+                      </svg>
+                      Servicios
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="servicios.html">Fisioterapia</a>
+                      </li>
+                      <li><a class="dropdown-item" href="servicios.html">Cirujias</a></li>
+                      <li><a class="dropdown-item" href="servicios.html">Internaciones</a>
+                      </li>
+                      <li><a class="dropdown-item" href="servicios.html">Consulta
+                          Domiciliaria</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-box-arrow-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                          d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z" />
+                        <path fill-rule="evenodd"
+                          d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z" />
+                      </svg>
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="productos.html">Alimentos</a></li>
+                      <li><a class="dropdown-item" href="productos.html">Medicamentos</a>
+                      </li>
+                      <li><a class="dropdown-item" href="productos.html">Bienestar</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="equipo.html">Equipo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="formulario.html">Contacto</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </nav>
         </div>
       </div>
     </div>
+    </div>
   </header>
 
-  <!-- separador imagen -->
+  <!-- Portada Imagen-->
   <section>
-    <div class="portada">
-      <img src="img/div_equipo.jpg">
-    </div>
+    <div class="imagenPortada-1"></div>
   </section>
 
+  <!-- Portada Texto-->
   <div class="container-fluid container__servicios__fondo container__sombra__interna">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12 ">
-                <div class="container__servicios__spaciado">
-                    <section class="container__sevicios__titulo">
-                        <h1>Equipo:</h1>
-                        <h4>Les presentamos al equipo de la veterinaria.</h4>
-                    </section>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-md-12 container__servicios__spaciado ">
+          <section class="container__sevicios__titulo">
+            <h1>Contamos con un equipo de profesionales altamente capacitados en cada area.</h1>
+          </section>
         </div>
-    </div>
-</div>
-
-  <!-- flex -->
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <main class="main">
-          <aside class="aside">
-            <div class="aside__titulo">
-              <p>Equipo de trabajo</p>
-            </div>
-            <div class="aside__nav aside__nav__back">
-              <ul>
-                <li><a href="#1" class="aside__nav__link btn--1">Veterinarios</a></li>
-                <br>
-                <li><a href="#2" class="aside__nav__link btn--2">Fisioterapeuta</a></li>
-                <br>
-                <li><a href="#3" class="aside__nav__link btn--3">Anestesista</a></li>
-                <br>
-                <li><a href="#4" class="aside__nav__link btn--4">Ecografa</a></li>
-              </ul>
-            </div>
-            <div class="aside__parrafo">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, fugit et expedita eveniet adipisci ut enim
-                illo animi culpa! Eos sunt aperiam debitis eligendi voluptates nobis porro officia ad est.</p>
-            </div>
-            <div>
-              <h2 class="aside__titulo aside__titulo--destacado">Esta su mascota en buenas manos?</h2>
-              <p class="aside__parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Soluta exercitationem accusamus expedita, autem ut, fugit voluptatem non vero, nobis atque veniam itaque!
-                Libero facere, repellat excepturi ullam architecto molestiae harum?
-                Minus, magnam culpa? Dicta autem vero id reiciendis similique earum numquam facere minus eius ipsum aliquam
-                dolores, maiores corrupti a nesciunt..</p>
-            </div>
-          </aside>
-          <article class="article">
-            <div class="article__equipo">
-              <a name="1"></a>
-              <h2>Veterinario: Cirujano</h2>
-              <p>Servicio especializado en rehabilitación de perros y gatos con problemas de movilidad. Atendemos con
-                Profesionalismo y Sensibilidad a todos los Animales. Solicitar Turno. Solicitar Turno. Capital Federal.
-                Servicios: artrosis, pinzamientos, mi perro no camina.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ea vel nesciunt, vero neque minus alias
-                excepturi voluptate ratione quasi amet quo dignissimos, enim, quos soluta beatae dolor deleniti laudantium.
-                At, tempora atque eligendi vel obcaecati ut non, sequi in harum qui fugiat, vitae sit cum sint dolor. Dolores
-                voluptas excepturi beatae laborum ducimus magnam, dolorum quibusdam tempora optio quos?
-                Ratione expedita totam minima, veritatis rerum quam tenetur explicabo, fugiat, nobis placeat dolore voluptatem
-                adipisci. Molestias, laborum natus aliquid dignissimos tempora doloribus harum officiis quam consequuntur
-                corporis illum obcaecati labore!
-              </p>
-            </div>
-            <div class="article__equipo">
-              <a name="2"></a>
-              <h2>CIRUGIAS</h2>
-              <p>Servicio especializado en rehabilitación de perros y gatos con problemas de movilidad. Atendemos con
-                Profesionalismo y Sensibilidad a todos los Animales. Solicitar Turno. Solicitar Turno. Capital Federal.
-                Servicios: artrosis, pinzamientos, mi perro no camina.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ea vel nesciunt, vero neque minus alias
-                excepturi voluptate ratione quasi amet quo dignissimos, enim, quos soluta beatae dolor deleniti laudantium.
-                At, tempora atque eligendi vel obcaecati ut non, sequi in harum qui fugiat, vitae sit cum sint dolor. Dolores
-                voluptas excepturi beatae laborum ducimus magnam, dolorum quibusdam tempora optio quos?
-                Ratione expedita totam minima, veritatis rerum quam tenetur explicabo, fugiat, nobis placeat dolore voluptatem
-                adipisci. Molestias, laborum natus aliquid dignissimos tempora doloribus harum officiis quam consequuntur
-                corporis illum obcaecati labore!
-              </p>
-              <p><a href="#" class="btn btn-custom-color"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                    fill="currentColor" class="bi bi-arrow-up align-baseline" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                      d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
-                  </svg>Volver</a></p>
-            </div>
-            <div class="article__equipo">
-              <a name="3"></a>
-              <h2>INTERNACIONES</h2>
-              <p>Servicio especializado en rehabilitación de perros y gatos con problemas de movilidad. Atendemos con
-                Profesionalismo y Sensibilidad a todos los Animales. Solicitar Turno. Solicitar Turno. Capital Federal.
-                Servicios: artrosis, pinzamientos, mi perro no camina.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ea vel nesciunt, vero neque minus alias
-                excepturi voluptate ratione quasi amet quo dignissimos, enim, quos soluta beatae dolor deleniti laudantium.
-                At, tempora atque eligendi vel obcaecati ut non, sequi in harum qui fugiat, vitae sit cum sint dolor. Dolores
-                voluptas excepturi beatae laborum ducimus magnam, dolorum quibusdam tempora optio quos?
-                Ratione expedita totam minima, veritatis rerum quam tenetur explicabo, fugiat, nobis placeat dolore voluptatem
-                adipisci. Molestias, laborum natus aliquid dignissimos tempora doloribus harum officiis quam consequuntur
-                corporis illum obcaecati labore!
-              </p>
-              <p><a href="#" class="btn btn-light">Volver</a></p>
-            </div>
-            <div class="article__equipo">
-              <a name="4"></a>
-              <h2>FISIOTERAPIA</h2>
-              <p>Servicio especializado en rehabilitación de perros y gatos con problemas de movilidad. Atendemos con
-                Profesionalismo y Sensibilidad a todos los Animales. Solicitar Turno. Solicitar Turno. Capital Federal.
-                Servicios: artrosis, pinzamientos, mi perro no camina.</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ea vel nesciunt, vero neque minus alias
-                excepturi voluptate ratione quasi amet quo dignissimos, enim, quos soluta beatae dolor deleniti laudantium.
-                At, tempora atque eligendi vel obcaecati ut non, sequi in harum qui fugiat, vitae sit cum sint dolor. Dolores
-                voluptas excepturi beatae laborum ducimus magnam, dolorum quibusdam tempora optio quos?
-                Ratione expedita totam minima, veritatis rerum quam tenetur explicabo, fugiat, nobis placeat dolore voluptatem
-                adipisci. Molestias, laborum natus aliquid dignissimos tempora doloribus harum officiis quam consequuntur
-                corporis illum obcaecati labore!
-              </p>
-              <p><a href="#" class="btn btn-secondary">Volver</a></p>
-            </div>
-          </article>
-        </main>
       </div>
+    </div>
+  </div>
+  <br>
 
+  <!-- Contenido-->
+  <div class="container fuente">
+    <div class="row">
+      <div class="col-md-7">
+        <article class="col-sm-12">
+          <h2 style="text-align: end;">
+            Diego Ortega
+          </h2>
+          <h3 style="color: black; text-align: end;">Médico Veterinario UBA</h3>
+          <p style="color: black; text-align:justify">Clinico especializado en cirujias Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Recusandae
+            accusantium consectetur nisi ducimus eaque vero necessitatibus est velit voluptatibus ullam ratione hic
+            exercitationem, reiciendis, quo consequuntur placeat quaerat accusamus fugit? Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Labore, ratione eos! Laudantium reiciendis facere est fuga id veniam sapiente
+            sed voluptatum, enim molestiae ab nostrum delectus at accusantium numquam tenetur? Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Ipsam autem recusandae sed veritatis ducimus cupiditate, commodi ratione
+            veniam! Cumque amet quos officia molestias maiores. Totam, pariatur nam? Voluptas, reiciendis recusandae?
+          </p>
+        </article>
+      </div>
+      <div class="col-md-3">
+        <div class="card img-thumbnail shadow-sm float-end">
+          <img src="/img/diego-vete.jpg" width="640" height="640" class="img-fluid"
+            alt="Servicios Veterinaria San Roque">
+        </div>
+      </div>
     </div>
 
-  </div>
-  <!-- pie de pagina -->
-  <footer class="footer__background">
-    <div class="container-fluid ">
-      <div class="container">
-        <div class="row">
-          <nav class="navbar navbar-expand-lg menuFooter">
-            <div class="container-fluid">
-              <img class="animate__animated animate__pulse" src="img/Veterinaria-San-Roque-sm.png"
-                alt="Logo Veterinaria San Roque">
-              <nav>
-                <ul>
-                  <li class="sombra_movil btn--facebook "><a href=http://www.facebook.com> <svg
-                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                        class="bi bi-facebook" viewBox="0 0 16 16">
-                        <path
-                          d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                      </svg> Facebook</a></li>
-                  <li class="sombra_movil btn--instagram"><a href=http://www.instagram.com> <svg
-                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                        class="bi bi-instagram" viewBox="0 0 16 16">
-                        <path
-                          d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                      </svg> Instagram</a></li>
-                  <li class="sombra_movil btn--back"><a href=#> <svg xmlns="http://www.w3.org/2000/svg" width="20"
-                        height="20" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
-                        <path
-                          d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
-                      </svg> Subir</a></li>
-                </ul>
-              </nav>
-            </div>
-          </nav>
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <article class="col-sm-6">
+          <h2>
+            Monica Cramer
+          </h2>
+          <h3 style="color: black;">Médica Veterinario UBA</h3>
+          <p style="color: black;text-align:justify">Clinico especializado en cirujias Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Recusandae
+            accusantium consectetur nisi ducimus eaque vero necessitatibus est velit voluptatibus ullam ratione hic
+            exercitationem, reiciendis, quo consequuntur placeat quaerat accusamus fugit?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat inventore vel enim, deleniti doloremque
+            officia vitae.
+          </p>
+        </article>
+      </div>
+      <div class="col-md-3">
+        <div class="card img-thumbnail shadow-sm">
+          <img src="/img/moni-vete.jpg" class="img-fluid" alt="Servicios Veterinaria San Roque">
         </div>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <article class="col-sm-12">
+          <h2>
+            Equipo Veterinario
+          </h2>
+          <p style="color: black; text-align:justify">Clinico especializado en cirujias Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Recusandae
+            accusantium consectetur nisi ducimus eaque vero necessitatibus est velit voluptatibus ullam ratione hic
+            exercitationem, reiciendis, quo consequuntur placeat quaerat accusamus fugit? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Neque nisi tenetur repellat tempora enim maiores vero odit reiciendis
+            consectetur eligendi aperiam consequuntur aut fuga, esse at quia labore distinctio iusto.</p>
+        </article>
+      </div>
+      <div class="col-md-3">
+        <div class="card img-thumbnail shadow-sm">
+          <img src="/img/equipo.jpg" class="img-fluid" alt="Servicios Veterinaria San Roque">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <!-- Pie de pagina -->
+  <footer class="container-fluid footer__background">
+    <div class="container menuFooter">
+      <div class="row">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+          <div class="col-md-4 d-flex align-items-center">
+            <img class="img-fluid text-center" src="../img/Veterinaria-San-Roque-sm.png"
+              alt="Logo Veterinaria San Roque">
+          </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="btn--facebook align-items-center"><a href=http://www.facebook.com> <svg
+                  xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </svg> </a></li>
+            <li class="btn--instagram align-items-center"><a href=http://www.instagram.com> <svg
+                  xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                </svg> </a></li>
+            <li class="btn--back"><a href=#> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                  fill="currentColor" class="bi bi-arrow-up-circle-fill align-items-center
+                    " viewBox="0 0 16 16">
+                  <path
+                    d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+                </svg> </a></li>
+          </ul>
+        </footer>
       </div>
     </div>
   </footer>
 
 
 
-
   <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 
 </html>

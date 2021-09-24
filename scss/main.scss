@@ -12,7 +12,7 @@ $navbar-light-active-color:           #ffffff;
 $navbar-light-toggler-border-color:   #5E789B;
 
 .nav-item:hover {
-    font-weight: bold;
+    color: black;
 }
 .active {
     background-color: rgb(122, 163, 197);
@@ -23,25 +23,26 @@ $navbar-light-toggler-border-color:   #5E789B;
     background-color: rgb(122, 163, 197);
 }
 
+$primary: #5E789B;
+$light: #29BAE1;
+$danger: #c7beb6;
+$secondary: #298BE1;
 
-$light: #b36d34;
-$danger: rgb(25, 136, 211);
-$secondary: rgb(0, 0, 0);
 
 $theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
     "light": $light,
     "danger": $danger,
-    "secondary":$secondary,
 );
-// Create your own map
+
+//  map
 $custom-colors: ("custom-color": #5E789B);
 
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../bootstrap/scss/bootstrap.scss";
-
-
 
 
 .section__portada {
@@ -162,7 +163,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 
 .body__error404 {
-    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    height:100%;
 }
 
 .error404 {
@@ -171,10 +172,12 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
     align-items: center;
     justify-content: center;
     width: 100%;
+    height: 100%;
 }
 
 .error404__container {
     padding-top: 50px;
     text-align: center;
-    color: white;
+    color:#5E789B;
 }
+

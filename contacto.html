@@ -1,41 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Descripcion -->
+    <meta name="description" content="Veterinaria San Roque, 40 años de experiencia">
+    <!-- Keywords -->
+    <meta name="keywords"
+        content="San Roque, veterinaria, veterinario, hospital veterinario, mascotas, fisioterapia, cirugía veterinaria">
+    <!-- Fuente google -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- CSS personal -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS creado con SCSS personal -->
+    <link rel="stylesheet" href="scss/main.css">
+    <!-- Bootstrap CSS -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--Redireccionamiento automatico-->
+    <META HTTP-EQUIV="REFRESH" CONTENT="5;URL=https://vetesanroque.000webhostapp.com/">
+
     <title>Veterinaria San Roque - 40 Años -</title>
 </head>
-<body>
-    <header>
-        <img src="img/logo-sn.jpg" alt="Logo Veterinaria San Roque">
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="equipo.html">Equipo</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-        <section>
-            <ul>
-                <h2>FORMULARIO ENVIADO CORRECTAMENTE</h2>
-            </ul>
-        </section>
 
-    <footer>
-        <nav id="menuFooter">
-            <ul>
-                <li><a href=http://www.facebook.com>Facebook</a></li>
-                <li><a href=http://www.instagram.com>Instagram</a></li>
-                <li><a href=#>Subir</a></li>
-            </ul>
-        </nav>
-            <p>
-                Veterinaria San Roque, Calle falsa 123 / Horarios de atencion de 9 a 12 y de 17 a 20h / Telefono 4567-5751
-            </p>
-    </footer>
+<body>
+    <!-- Logo + menu -->
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div>
+                            <img class="me-auto img-fluid animate__animated animate__pulse"
+                                src="img/Veterinaria-San-Roque.png" alt="Logo Veterinaria San Roque">
+                        </div>
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="me-2 collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false"> <svg
+                                                xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-box-arrow-down" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z" />
+                                            </svg>
+                                            Servicios
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="servicios.html">Fisioterapia</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="servicios.html">Cirujias</a></li>
+                                            <li><a class="dropdown-item" href="servicios.html">Internaciones</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="servicios.html">Consulta
+                                                    Domiciliaria</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false"> <svg
+                                                xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-box-arrow-down" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z" />
+                                            </svg>
+                                            Productos
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="productos.html">Alimentos</a></li>
+                                            <li><a class="dropdown-item" href="productos.html">Medicamentos</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="productos.html">Bienestar</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="a nav-link" href="equipo.html">Equipo</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="formulario.html">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+
+    <!-- Envio -->
+    <div class="container py1">
+        <header>
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                <h1 class="display-4 fw-normal fuente">En breve nos estaremos comunicando</h1>
+                <p class="fs-5 text-muted">FORMULARIO ENVIADO CORRECTAMENTE</p>
+                <p>Lo estamos redireccionando.</p>
+                <img src="/img/enviado.png" alt="formulario enviado">
+            </div>
+        </header>
+
+
+
+        <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>

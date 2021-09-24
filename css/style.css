@@ -81,7 +81,7 @@
 }
 
 .container__sevicios__titulo {
-    margin-top: 20px;
+    padding-top: 50px;
 }
 
 
@@ -177,43 +177,22 @@
 
 
 
-
-
-
 /*-----SECCION TELEFONO Y HORARIO -----*/
 
 .telHs {
-    display: grid;
-    grid-template-areas: "tel hs dato";
-    color: #dde7f1;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.backgraund__telhs {
     background-image: linear-gradient(150deg, #0c1829, #5E789B 50%);
 }
 
-.tel {
-    grid-area: tel;
-    text-align: center;
-    padding-right: 50px;
-}
-
-.hs {
-    grid-area: hs;
-    text-align: center;
-}
-
-.dato {
-    grid-area: dato;
-    text-align: center;
-}
-
+.
 
 .sombra_movil {
-
     -webkit-transform: translateX(0);
-
 }
-
 .sombra_movil:before {
     content: '';
     position: absolute;
@@ -227,25 +206,23 @@
     -webkit-transition-duration: 0.5s;
     opacity: 0;
 }
-
 .sombra_movil:hover {
-    -webkit-transform: translateY(-5px);
+    -webkit-transform: translateY(-15px);
     -webkit-animation: 1.5s movercaja infinite;
     color: #dde7f1;
     text-shadow: black 0.1em 0.1em 0.2em
 }
-
 @-webkit-keyframes movercaja {
     50% {
         -webkit-transform: translateY(-3px);
     }
 }
-
 .sombra_movil:hover:before {
     opacity: 0.4;
     -webkit-transform: translateY(5px);
     opacity: 1;
     -webkit-animation: 1.5s moversombra infinite;
+    
 }
 
 @-webkit-keyframes moversombra {
@@ -355,39 +332,50 @@
 }
 
 
-/*---productos flex---*/
+/*--- PRODUCTOS ---*/
+.info__productos {
+    list-style: none;
+    border: 2px solid rgb(214, 214, 214);
+    background: #e1e2e4c7;
+    padding: 0.7em;
+    width: auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    
 
+}
 
 
 /*--- SERVICIOS FLEX ---*/
 
-.imagenServicios1 {
+.imagenPortada-1 {
     background-image: url("/img/foto_slider_2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: right;
     width: 100%;
-    height: 400px;
+    height: 300px;
     margin: 0px;
 }
 
-.imagenServicios2 {
-    background-image: url("/img/layout-3-02-480x370.jpg");
-    background-position: center center;
+.imagenPortada-2 {
+    background-image: url("/img/foto_slider_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 250px;
-    height: 240px;
-    margin: 20px;
+    text-align: right;
+    width: 100%;
+    height: 300px;
+    margin: 0px;
 }
 
-.imagenServicios3 {
-    background-image: url("/img/layout-3-03-480x370.jpg");
-    background-position: center center;
+.imagenPortada-3 {
+    background-image: url("/img/foto_slider_3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 250px;
-    height: 240px;
-    margin: 20px;
+    text-align: right;
+    width: 100%;
+    height: 300px;
+    margin: 0px;
 }
 
 .imagenServicios4 {
@@ -472,4 +460,119 @@
 .menuFooter li a:hover {
     color: #ffffff;
     text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.testimonials-clean {
+    font-family: 'Quicksand', sans-serif;
+    color:#ffffff;
+    background-color:  #5E789B;
+  }
+  
+  .testimonials-clean p {
+    color:#7d8285;
+  }
+  
+  .testimonials-clean h2 {
+    font-weight:bold;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .testimonials-clean h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .testimonials-clean .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+  }
+  
+  .testimonials-clean .intro p {
+    margin-bottom:0;
+  }
+  
+  .testimonials-clean .people {
+    padding:50px 0 20px;
+  }
+  
+  .testimonials-clean .item {
+    margin-bottom:32px;
+  }
+  
+  @media (min-width:768px) {
+    .testimonials-clean .item {
+      height:220px;
+    }
+  }
+  
+  .testimonials-clean .item .box {
+    padding:30px;
+    background-color:#fff;
+    position:relative;
+  }
+  
+  .testimonials-clean .item .box:after {
+    content:'';
+    position:absolute;
+    left:30px;
+    bottom:-24px;
+    width:0;
+    height:0;
+    border:15px solid transparent;
+    border-width:12px 15px;
+    border-top-color:#fff;
+  }
+  
+  .testimonials-clean .item .author {
+    margin-top:28px;
+    padding-left:25px;
+  }
+  
+  .testimonials-clean .item .name {
+    font-weight:bold;
+    margin-bottom:2px;
+    color:inherit;
+  }
+  
+  .testimonials-clean .item .title {
+    font-size:13px;
+    color:#9da9ae;
+  }
+  
+  .testimonials-clean .item .description {
+    font-size:15px;
+    margin-bottom:0;
+  }
+  
+  .testimonials-clean .item img {
+    max-width:40px;
+    float:left;
+    margin-right:12px;
+    margin-top:-5px;
+  }
+
+  .card__title__color-1 {
+      background-color: #29BAE1;
+  }
+  .card__title__color-2 {
+    background-color: #298BE1;
+}
+.card__title__color-3 {
+    background-color: #5E789B;
+}
+
+.carrusel__texto__titulo {
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.507) 0.1em 0.1em 0.2em
+}
+
+/* Productos */ 
+
+.carrito {
+
 }
